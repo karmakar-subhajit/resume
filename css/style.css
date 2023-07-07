@@ -285,8 +285,8 @@ ul.bull-list-1 > li:before {
 
 .row-right.row-2 .exp-item .projects-wrap {
     padding: 12px 14px;
-    border-radius: 5px;
-    background-color: var(--color_1);
+    border-radius: 10px;
+    background-color: #fbfbfb;
     margin-top: 12px;
 }
 .row-right.row-2 .exp-item .projects-wrap > .area-title{
@@ -295,7 +295,7 @@ ul.bull-list-1 > li:before {
     font-weight: 600;
     text-transform: uppercase;
     margin: 0 0 8px 0;
-    color: #fff;
+    color: var(--color_1);
 }
 .row-right.row-2 .exp-item .project-list {
     padding: 0 0 0 18px;
@@ -303,10 +303,10 @@ ul.bull-list-1 > li:before {
     display: flex;
     flex-direction: column;
     gap: 2px;
-    color: #fff;
+    color: var(--color_1);
 }
 .row-right.row-2 .exp-item ul.project-list > li > a{
-    color: #fff;
+    color: var(--color_1);
     text-decoration: none;
 }
 .row-right.row-2 .exp-item ul.project-list > li > a:after {
@@ -317,7 +317,7 @@ ul.bull-list-1 > li:before {
     margin: 0 0 0 8px;
     display: inline-block;
     transform: translateY(-5px);
-    color: #fff;
+    color: var(--color_1);
 }
 
 
