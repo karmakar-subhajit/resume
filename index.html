@@ -67,7 +67,7 @@
                         <p class="my-comit">A Skilled and Passionate Web Developer seeking to utilize my Expertise in Developing, Customizing and Maintaining Websites for diverse clients.</p>
                     </div>
                     <div class="row-right row-2">
-                        <h3 class="row-title">Work Experience</h3>
+                        <h3 class="row-title">Work Experience <span class="total-exp" style="display: none;"></span></h3>
                         <ul class="bull-list-1">
                             <li class="exp-item">
                                 <h3>Senior WordPress Developer <br><span>Team Pumpkin</span></h3>
@@ -201,5 +201,9 @@
             </div>
         </div>
     </main>
+
+    <script>
+        document.querySelector(".total-exp").textContent = `Approx ${(new Date().getFullYear() - 2019)} years`;
+    </script>
 </body>
 </html>

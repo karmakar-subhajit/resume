@@ -253,6 +253,16 @@ ul.bull-list-1 > li:before {
 }
 
 /* ---------------------------------------- Right Row 2 */
+.row-right.row-2 .row-title{
+    display: flex;
+    justify-content: space-between;
+}
+.row-right.row-2 .row-title span.total-exp {
+    font-size: 14px;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
 .row-right.row-2 ul.bull-list-1{
     --bullet_size: 0.8rem;
     --elems_color: var(--color_1);
