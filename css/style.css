@@ -284,18 +284,27 @@ ul.bull-list-1 > li:before {
 
 
 .row-right.row-2 .exp-item .projects-wrap {
-    padding: 12px 14px;
+    padding: 12px 14px 12px 20px;
     border-radius: 10px;
     background-color: #fbfbfb;
     margin-top: 12px;
+    margin-left: 12px;
+    position: relative;
 }
-.row-right.row-2 .exp-item .projects-wrap > .area-title{
-    font-size: 14px;
+.row-right.row-2 .exp-item .projects-wrap > .area-title {
+    font-size: 12px;
     line-height: 1.3;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    margin: 0 0 8px 0;
-    color: var(--color_1);
+    color: #fff;
+    background-color: var(--color_1);
+    padding: 2px 10px;
+    border-radius: 99px;
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -48px;
+    top: 47px;
 }
 .row-right.row-2 .exp-item .project-list {
     padding: 0 0 0 18px;
